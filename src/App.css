@@ -1,0 +1,161 @@
+.App {
+  font-family: "Arial";
+  width: 70vw;
+  margin: auto;
+}
+
+.App .AppHeader {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#577781), color-stop(35%, #5ba07a), to(#a5e96d));
+  background: linear-gradient(90deg, #577781 0%, #5ba07a 35%, #a5e96d 100%);
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .mainDiv {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.App .mainDiv .mainDiv__form {
+  width: auto;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 0.5px lightgray;
+  background-color: white;
+  z-index: -1;
+}
+
+.App .mainDiv .mainDiv__form .form__lupeDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.App .mainDiv .mainDiv__form .form__lupeDiv .lupeDiv__luppeIcon {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.App .mainDiv .mainDiv__form .form__lupeDiv .lupeDiv__luppeIcon:hover {
+  height: 18px;
+  width: 18px;
+}
+
+.App .mainDiv .mainDiv__form .form__searchInp {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  text-indent: 5px;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv:hover {
+  background-color: #acacac;
+  cursor: pointer;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsListForm__contactsInnerDiv {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsListForm__contactsInnerDiv .contactsInnerDiv__profilePicDiv {
+  width: 50px;
+  height: 50px;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsListForm__contactsInnerDiv .contactsInnerDiv__profilePicDiv .profile__pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 0.5px solid lightgray;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__userInfo {
+  width: auto;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__userInfo .userInfo__firstAndLastName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__userInfo .userInfo__firstAndLastName .firstAndLastName__name {
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__userInfo .userInfo__firstAndLastName .firstAndLastName__lastName {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__userInfo .userInfo__mail {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__chechboxHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: 5px;
+  z-index: 2;
+}
+
+.App .mainDiv .mainDiv__contactsListForm .contactsListForm__contactsOuterDiv .contactsInnerDiv__chechboxHolder .chechbox {
+  z-index: 2;
+}
+/*# sourceMappingURL=App.css.map */
